@@ -36,7 +36,7 @@ class Board
     @grid[col][row] = value
   end
 
-  def empty?(position = [0,0]) # W no params I think this should be handled differently.
+  def empty?(position = [0,0])
     self[position].nil?
   end
 
